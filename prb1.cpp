@@ -20,8 +20,8 @@ CVector CVector::operator- (CVector param) {
 }
 
 int main () {
- CVector a (3,1);
- CVector b (1,2);
+ CVector a (4,1);
+ CVector b (3,2);
  CVector c;
  c = a - b;
  cout << "(" << c.x << "," << c.y << ")";
